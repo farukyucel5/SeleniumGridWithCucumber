@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="328.266">
+    <testcase classname="US1010 Kullanici Scenario Outline ile Editor sayfasinda kayit olusturur" name="TC15 Editor sayfasinda birden fazla kayit olusturabilmeli" time="48.754">
+        <system-out><![CDATA[When kullanici "editorUrl" anasayfaya gider.................................passed
+Then new butonuna basar.....................................................passed
+And First name kutusuna "Ilker" yazar.......................................passed
+And Last name kutusuna "Bulut" yazar........................................passed
+And position kutusuna "QA" yazar............................................passed
+And Office kutusuna "Istanbul" yazar........................................passed
+And Extension kutusuna "levent" yazar.......................................passed
+And Start date kutusuna "2021-01-01" yazar..................................passed
+And Salary kutusuna "20000" yazar...........................................passed
+And Create tusuna basar.....................................................passed
+When kullanici "Ilker" ile arama yapar......................................passed
+Then isim bolumunde "Ilker" oldugunu dogrular...............................passed
+And 3 saniye bekler.........................................................passed
+Then sayfayi kapatir........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US1010 Kullanici Scenario Outline ile Editor sayfasinda kayit olusturur" name="TC15 Editor sayfasinda birden fazla kayit olusturabilmeli 2" time="20.869">
+        <system-out><![CDATA[When kullanici "editorUrl" anasayfaya gider.................................passed
+Then new butonuna basar.....................................................passed
+And First name kutusuna "Ramazan" yazar.....................................passed
+And Last name kutusuna "Can" yazar..........................................passed
+And position kutusuna "QA lead" yazar.......................................passed
+And Office kutusuna "Ankara" yazar..........................................passed
+And Extension kutusuna "Kizilay" yazar......................................passed
+And Start date kutusuna "2021-10-01" yazar..................................passed
+And Salary kutusuna "25000" yazar...........................................passed
+And Create tusuna basar.....................................................passed
+When kullanici "Ramazan" ile arama yapar....................................passed
+Then isim bolumunde "Ramazan" oldugunu dogrular.............................passed
+And 3 saniye bekler.........................................................passed
+Then sayfayi kapatir........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US1010 Kullanici Scenario Outline ile Editor sayfasinda kayit olusturur" name="TC15 Editor sayfasinda birden fazla kayit olusturabilmeli 3" time="46.838">
+        <system-out><![CDATA[When kullanici "editorUrl" anasayfaya gider.................................passed
+Then new butonuna basar.....................................................passed
+And First name kutusuna "Sule" yazar........................................passed
+And Last name kutusuna "Saglam" yazar.......................................passed
+And position kutusuna "Test lead" yazar.....................................passed
+And Office kutusuna "Izmir" yazar...........................................passed
+And Extension kutusuna "Konak" yazar........................................passed
+And Start date kutusuna "2022-02-02" yazar..................................passed
+And Salary kutusuna "23000" yazar...........................................passed
+And Create tusuna basar.....................................................passed
+When kullanici "Sule" ile arama yapar.......................................passed
+Then isim bolumunde "Sule" oldugunu dogrular................................passed
+And 3 saniye bekler.........................................................passed
+Then sayfayi kapatir........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US1010 Kullanici Scenario Outline ile Editor sayfasinda kayit olusturur" name="TC15 Editor sayfasinda birden fazla kayit olusturabilmeli 4" time="26.926">
+        <system-out><![CDATA[When kullanici "editorUrl" anasayfaya gider.................................passed
+Then new butonuna basar.....................................................passed
+And First name kutusuna "Yasar" yazar.......................................passed
+And Last name kutusuna "U" yazar............................................passed
+And position kutusuna "QA" yazar............................................passed
+And Office kutusuna "Istanbul" yazar........................................passed
+And Extension kutusuna "Kadikoy" yazar......................................passed
+And Start date kutusuna "2023-01-01" yazar..................................passed
+And Salary kutusuna "25000" yazar...........................................passed
+And Create tusuna basar.....................................................passed
+When kullanici "Yasar" ile arama yapar......................................passed
+Then isim bolumunde "Yasar" oldugunu dogrular...............................passed
+And 3 saniye bekler.........................................................passed
+Then sayfayi kapatir........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US1010 Kullanici Scenario Outline ile Editor sayfasinda kayit olusturur" name="TC15 Editor sayfasinda birden fazla kayit olusturabilmeli 5" time="184.045">
+        <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: 'DESKTOP-75D171T', ip: '192.168.1.26'" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[When kullanici "editorUrl" anasayfaya gider.................................skipped
+Then new butonuna basar.....................................................skipped
+And First name kutusuna "Meryem" yazar......................................skipped
+And Last name kutusuna "Toprak" yazar.......................................skipped
+And position kutusuna "QA lead" yazar.......................................skipped
+And Office kutusuna "Istanbul" yazar........................................skipped
+And Extension kutusuna "levent" yazar.......................................skipped
+And Start date kutusuna "2022-11-11" yazar..................................skipped
+And Salary kutusuna "20000" yazar...........................................skipped
+And Create tusuna basar.....................................................skipped
+When kullanici "Meryem" ile arama yapar.....................................skipped
+Then isim bolumunde "Meryem" oldugunu dogrular..............................skipped
+And 3 saniye bekler.........................................................skipped
+Then sayfayi kapatir........................................................skipped
+
+StackTrace:
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-75D171T', ip: '192.168.1.26'
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:242)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:139)
+	at utilities.Base.setDriver(Base.java:24)
+	at stepdefinitions.GridStepDefinitions.grid(GridStepDefinitions.java:25)
+Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.5.3', revision: '4b786a1e430'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:65)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:49)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:99)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:55)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:120)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:242)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:139)
+	at utilities.Base.setDriver(Base.java:24)
+	at stepdefinitions.GridStepDefinitions.grid(GridStepDefinitions.java:25)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:85)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:78)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunBeforeAllHooks.evaluate(Cucumber.java:266)
+	at io.cucumber.junit.Cucumber$RunAfterAllHooks.evaluate(Cucumber.java:281)
+	at io.cucumber.junit.Cucumber$StartTestRun.evaluate(Cucumber.java:233)
+	at io.cucumber.junit.Cucumber$FinishTestRun.evaluate(Cucumber.java:248)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:59)
+	... 66 more
+]]></failure>
+    </testcase>
+</testsuite>
